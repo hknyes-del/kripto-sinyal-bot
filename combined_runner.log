@@ -1,0 +1,11 @@
+2026-02-25 12:26:24,570 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-2' coro=<start_health_server() done, defined at D:\hy\price action\crypto_signal_bot\crypto_signal_bot\health_server.py:10> exception=OSError(10048, "error while attempting to bind on address ('0.0.0.0', 10000): normal olarak her yuva adresi (iletiþim kuralý/að adresi/baðlantý noktasý) için yalnýzca bir kullanýma izin veriliyor")>
+Traceback (most recent call last):
+  File "D:\hy\price action\crypto_signal_bot\crypto_signal_bot\health_server.py", line 21, in start_health_server
+    await site.start()
+  File "C:\Users\GIZEM\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\web_runner.py", line 119, in start
+    self._server = await loop.create_server(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\GIZEM\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1536, in create_server
+    raise OSError(err.errno, msg) from None
+OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 10000): normal olarak her yuva adresi (iletiþim kuralý/að adresi/baðlantý noktasý) için yalnýzca bir kullanýma izin veriliyor
