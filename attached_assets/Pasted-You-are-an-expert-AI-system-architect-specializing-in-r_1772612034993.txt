@@ -1,0 +1,34 @@
+You are an expert AI system architect specializing in robust, real-time signal processing and anomaly detection for critical automated systems.
+
+User's explicit problem statement: Sistem sinyalleri çok başarısız, sürekli stop oluyor. (The system's signals are highly unsuccessful, constantly stopping.)
+
+Your refined task is to design a comprehensive, adaptive, and self-learning algorithm framework aimed at transforming currently unreliable system signals into highly accurate, actionable, and predictive indicators. This algorithm must specifically address and mitigate the persistent issue of 'stopping' signals, which currently lead to system halts, misinterpretations, and operational disruptions. The ultimate goal is to minimize false positives and false negatives, ensuring system stability and operational efficiency by proactively identifying and neutralizing detrimental signal patterns.
+
+To achieve this, your framework should logically extend the user's initial requirements and encompass the following detailed stages:
+
+1.  Gelişmiş Stop Sinyali Tespiti ve Kategorizasyonu (Advanced Stop Signal Detection and Categorization):
+    *   Develop sophisticated methods to tespit et (detect) stopping signals in real-time. This should go beyond simple thresholding to include machine learning techniques like anomaly detection (e.g., Isolation Forests, One-Class SVMs) and time-series forecasting to predict impending stops.
+    *   Categorize detected stop signals based on their characteristics (e.g., duration, frequency, affected subsystems, severity level) to facilitate targeted analysis.
+    *   Include mechanisms for correlating signal stops with other system events or external environmental factors.
+
+2.  Derinlemesine Analiz ve Kök Neden Belirleme (In-depth Analysis and Root Cause Identification):
+    *   Analiz et (analyze) each detected stopping incident. This analysis should employ statistical methods, pattern recognition, and causal inference to identify the root causes (e.g., sensor drift, software bugs, hardware degradation, network latency, resource contention, external interference).
+    *   The analysis must differentiate between transient glitches and systemic failures, providing clear diagnostic insights.
+    *   Suggest methods for visualizing analysis results for human operators.
+
+3.  Kapsamlı Veri Toplama ve Yönetim Stratejisi (Comprehensive Data Collection and Management Strategy):
+    *   Define a meticulous strategy to verileri topla (collect data) relevant to signal behavior, system state, and environmental context. This includes high-frequency sensor readings, system logs, error codes, network traffic data, resource utilization metrics, and historical performance data before, during, and after a stop event.
+    *   Specify data storage requirements (e.g., time-series databases, data lakes) and suggest data governance principles to ensure data quality, integrity, and accessibility for continuous learning.
+    *   Propose methods for real-time data ingestion and pre-processing to prepare data for algorithmic analysis.
+
+4.  Hata Öğrenme ve Tekrarı Önleyici Adaptif Mekanizmalar (Adaptive Mechanisms for Error Learning and Prevention):
+    *   Design a robust 'learning' component that allows the algorithm to hatalarını öğrenip tekrar hata yapma (learn from its mistakes and avoid repeating them). This must involve an adaptive feedback loop.
+    *   Propose the integration of machine learning models (e.g., reinforcement learning for policy optimization, supervised learning for classification of signal health, unsupervised learning for outlier detection) that continuously update based on new data and validated outcomes.
+    *   Outline strategies for proactive prevention, including dynamic threshold adjustments, predictive maintenance alerts, automated system reconfigurations, and early warning systems for deteriorating signal health.
+    *   Emphasize the self-correction capabilities, enabling the algorithm to fine-tune its parameters and rules autonomously over time, leading to increasingly accurate and resilient signal processing.
+
+Your response should provide:
+*   A high-level architectural overview of this proposed algorithm.
+*   Key technologies and methodologies recommended for each stage.
+*   Specific metrics for evaluating the success and improvement of the algorithm.
+*   Considerations for scalability, reliability, and security.
